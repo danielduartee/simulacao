@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assets/cena1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cenario {
+    width: 100%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+h1, p, h2,li{
+    width: 100%;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    
+}
+p{
+    opacity: 1;
+    transition: 400ms;
+  
+
+}
+#personagem{
+    max-width: 15%;
+}
+.avatares{
+display: flex;
+justify-content: space-between;
+
+
+}
+#personagem:houver {
+    transform: scale(1.2);
+}
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assets/cena2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cenario {
+    width: 85%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+h1, p {
+    width: 100%;
+    text-align: center;
+    
+}
+#personagem{
+    max-width: 25%;
+    display: flex;
+    flex-direction: row;
+    
+}
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+}
