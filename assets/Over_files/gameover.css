@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../assets/cena2.jpg);
+    background-image: url(../assets/gameover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Fredoka One', cursive;
