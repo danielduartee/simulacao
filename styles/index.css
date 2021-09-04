@@ -13,28 +13,34 @@ body{
 }
 p{
    
-   border-radius: 10px;
-    opacity: 1;
-    transition: 400ms;
+ border-radius: 10px;
+ opacity: 1;
+ transition: 400ms;
   
 }
 #personagem{
     max-width: 15%;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    align-content: space-around;
 
 }
 .avatares{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
     flex-direction: row;
     margin-top: 50px ;
     }
 ol{
-  text-align: center;  
+   
+   color: #ec7fe3;
+   text-align: center;  
    margin-top: 50px;
-   margin: 0 1.5%;
-   padding: 20px 10px;
+   margin: 0 3.5%;
+   padding: 20px 30px;
    box-sizing: border-box;
-   border: 2px solid #000000;
+   border: 2px solid #ec7fe3;
    border-radius: 10px;
    background-color:rgb(202, 191, 193);
    transition:  3s; 

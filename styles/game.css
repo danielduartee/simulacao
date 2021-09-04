@@ -25,10 +25,14 @@ h2{
     display: flex;
     justify-content:space-evenly;
     flex-direction: row;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    width: 50%;
 }   
 .botao-choice{
   
- text-align: center;
+  text-align: center;
   font-size: 18px;
   width: 30%;
   background-color: #e4ee54cb;
@@ -36,7 +40,21 @@ h2{
   border-radius: 30px;
   cursor: pointer;
   padding: 10px;
+  
     
+}
+.choices{
+    max-width: 45%;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    align-content: space-between;
+    text-align: center;  
+   margin-top: 50px;
+   margin: 0 3.5%;
+   padding: 20px 30px;
+   display: flex;
+ 
 }
 @media screen and (max-width: 480px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
