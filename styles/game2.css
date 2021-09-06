@@ -9,3 +9,7 @@ body{
     background-size: cover;
     font-family: 'Fredoka One', cursive;
 }
+h1,h2,p{
+    width: 100%;
+    text-align: center;
+}

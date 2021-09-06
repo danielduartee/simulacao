@@ -45,7 +45,7 @@ h2{
 }
 .botao-choice:hover{
     transform: scale(1.5seg)
-    cursor: pointer;
+    
 }
 .choices{
     display: flex;
