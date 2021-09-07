@@ -26,7 +26,7 @@ function arma() {
     escolha = prompt("Você escolheu a arma, mas encontramos o primiro desafio, não podemos fazer barulho tem zumbis vindo em nossa direção... \n  1 Vamos sair escondinho \n 2 Vamos Lutar");
     while (escolha != '1' && escolha != '2') {
 
-        escolha = prompt("Você escolheu a arma, mas encontramos o primiro desafio, não podemos fazer barulho tem zumbis vindo em nossa direção... \n  1 Vamos sair escondinho \n 2 Vamos Lutar");
+        escolha = prompt("Você escolheu a arma, mas encontramos o primiro desafio, não podemos fazer barulho tem zumbis vindo em nossa direção... \n  1 Vamos sair escondinho   \n 2 Vamos Lutar");
     }
     if (escolha == '1') {
         alert("Calma Jovem, precisamos passar por eles em silencio");
@@ -46,7 +46,7 @@ function vitoria() {
         alert('Bom trabalho, passamos  e conseguimos completar a missão');
         location.href = "file:///C:/Users/danie/Documents/GAME%20the%20GAME/html/game2.html"
     } else {
-        alert("Dessa vez foi quase! A rua estava cheia de armardilhas e acabamos caindno nelas");
+        alert("Dessa vez foi quase! A rua estava cheia de armardilhas e acabamos caindo nelas");
         location.href = "file:///C:/Users/danie/Documents/GAME%20the%20GAME/html/gameover.html";
 
     }
