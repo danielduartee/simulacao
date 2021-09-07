@@ -19,7 +19,7 @@ h1, p {
 h2{
     color: rgb(148, 59, 27);
     text-align: center;
-    box-sizing: border-box;
+    
 }
 .armas{
     display: flex;
@@ -54,17 +54,4 @@ h2{
     margin-top: 50px ;
     cursor: pointer;
   
-}
-@media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
-        width: auto;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    nav {
-        position: static;
-    }
 }

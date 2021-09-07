@@ -50,4 +50,4 @@ function vitoria() {
         location.href = "file:///C:/Users/danie/Documents/GAME%20the%20GAME/html/gameover.html";
 
     }
-}
+ }
