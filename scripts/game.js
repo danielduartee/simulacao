@@ -1,8 +1,8 @@
 function avatar() {
-    location.href = 'file:///C:/Users/danie/Documents/GAME%20the%20GAME/html/game.html';
+    location.href = "./html/game.html";
 }
 function dead() {
-    location.href = "file:///C:/Users/danie/Documents/GAME%20the%20GAME/html/gameover.html";
+    location.href = "./gameover.html";
     alert("Pessima escolha amigo, o aCid não iria te ajudar!!");
 }
 function cajado() {
@@ -14,10 +14,10 @@ function cajado() {
     if (escolha == '1') {
         alert("Corre, precisamos passar por eles.")
         vitoria();
-        location.href = "file:///C:/Users/danie/Documents/GAME%20the%20GAME/html/game2.html";
+        location.href = "./game2.html";
     } else {
         alert("Lutar não foi uma boa ideia, deveriamos ter corrido")
-        location.href = "file:///C:/Users/danie/Documents/GAME%20the%20GAME/html/gameover.html";
+        location.href = "./gameover.html";
     }
 }
 
@@ -33,7 +33,7 @@ function arma() {
         vitoria();
     } else {
         alert("Fizemos baraulho demais, esse foi nosso erro!");
-        location.href = "file:///C:/Users/danie/Documents/GAME%20the%20GAME/html/gameover.html";
+        location.href = "./gameover.html";
     }
 }
 function vitoria() {
@@ -44,10 +44,10 @@ function vitoria() {
     }
     if (winner == '1') {
         alert('Bom trabalho, passamos  e conseguimos completar a missão');
-        location.href = "file:///C:/Users/danie/Documents/GAME%20the%20GAME/html/game2.html"
+        location.href = "./game2.html"
     } else {
         alert("Dessa vez foi quase! A rua estava cheia de armardilhas e acabamos caindo nelas");
-        location.href = "file:///C:/Users/danie/Documents/GAME%20the%20GAME/html/gameover.html";
+        location.href = "./gameover.html";
 
     }
  }
